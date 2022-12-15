@@ -13,6 +13,6 @@ aler.addEventListener('click', () => {
 
 
 document.querySelector ('#prompt').addEventListener ('click', (event) => {
-    const usertext = prompt ('введите сообщение', 'напишите что-нибудь ;)', '');
+    const usertext = prompt ('привет, я Prompt', 'через меня можно что-то передать ;)', '');
     console.log (usertext);
 })
