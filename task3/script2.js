@@ -1,5 +1,5 @@
 
-const trafficLightE1 = document.querySelector('#trafficLight');
+const frelight = document.querySelector('#trafficLight');
 trafficLightE1.addEventListener ('click', makeGreen, makeYellow, makeRed);
 
 

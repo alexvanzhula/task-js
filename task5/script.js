@@ -1,11 +1,21 @@
-const usertext = document.querySelector('#usertext');
 
-usertext.addEventListener('click', function (event){
+let pageForm = document.querySelector('#my_input')
+let pageButton = document.querySelector('button')
+let userText = document.querySelector ('p')
+let duplicateField = document.querySelector('#duplicateField')
 
-this.textContent = usertext;
-this.duplicateFields = ('usertext');
+duplicateField.textContent = pageForm.value;
 
-event.preventDefault();
+pageForm.addEventListener('keyup', function (event) {
+        this.textContent = pageForm.value;
+        duplicateField.textContent =  pageForm.value;
+        event.preventDefault();
 })
 
-button.onclick
+
+pageButton.addEventListener('click', function (event){
+    console.log(pageForm.value);
+    pageForm.value = ('');
+    event.preventDefault();
+})
+   
