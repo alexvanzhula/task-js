@@ -1,0 +1,26 @@
+
+body>h1 {
+    text-align: center;
+    background-color: blueviolet;
+    margin-bottom: 70px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 140px;
+    margin-bottom: 30px;
+}
+
+body>p>a {
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+body>p>a:hover {
+    background-color: cadetblue;
+}
+

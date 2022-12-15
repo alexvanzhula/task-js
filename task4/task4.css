@@ -1,0 +1,33 @@
+.content {
+    font-size: 24px;
+    margin-bottom: 40px;
+    background-color: blanchedalmond;
+}
+
+body>h1 {
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 200px;
+}
+
+body>a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+body>p>a {
+    font-size: 24px;
+    text-decoration: none;
+    
+}
+
+body>p>a:hover {
+    background-color: cadetblue;
+}
