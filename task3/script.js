@@ -12,7 +12,7 @@ trafficLightE1.removeEventListener ('click', makeGreen);
 trafficLightE1.addEventListener ('click', makeYellow);
 }
 
-function makeYellow() {
+function makeYellow () {
 
 trafficLightE1.style.background = ('yellow');
 
